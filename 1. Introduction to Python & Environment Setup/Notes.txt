@@ -1,0 +1,24 @@
+1.Introduction to Python & Environment Setup
+
+Install Python and set up VS Code or PyCharm. Learn about Python file execution.
+
+Install Python, create hello.py that prints 'Hello World'.
+
+Environment set up and first Python program executed.
+
+	1. Install Python - Completed
+
+	C:\Users\AMBILI>python --version
+	Python 3.12.0
+
+	C:\Users\AMBILI>
+
+	2. set up VS Code or PyCharm - Completed
+
+	3. Learn about Python file execution - Completed
+
+	4. Install Python, create hello.py that prints 'Hello World' - Completed
+
+	print("Hello World!")
+
+	5. Environment set up and first Python program executed - Completed

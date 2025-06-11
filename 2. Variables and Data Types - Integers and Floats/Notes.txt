@@ -1,0 +1,68 @@
+2. Variables and Data Types - Integers and Floats
+
+Understand variables, assignment, integers, and floating point numbers.
+
+Calculate area of rectangle, circle, and average of numbers.
+
+Able to perform numeric operations with variables.
+
+	1. Understand variables, assignment - Completed
+	
+	name = "Ambili"
+	division = 12
+	print(f"My Name is {name} and I am studying in {division}th standard")
+	
+	2. integers, and floating point numbers - Completed
+	
+	x = 10              #Integer
+	print(x)
+	print(type(x))
+
+	y = 10.5            #Float
+	print(y)
+	print(type(y))
+
+	z = "Ambili"        #String
+	print(z)
+	print(type(z))
+	
+	3. Calculate area of a rectangle - Completed
+	
+	# Finding the Area of a Rectangle
+	# Area = length * breadth
+
+	length = 15
+	breadth = 20 
+
+	area = length * breadth 
+
+	print("The area of the rectangle is", area) 
+	
+	4.Calculate area of a circle - Completed
+	
+	# Calculate the Area of a Circle
+	# Area = pi * square of radius
+	# pi = 3.14 or 22/7
+
+	pi = 22/7
+	radius = 16 
+
+	area = pi * radius**2
+
+	print("The area of the circle is", round(area, 2))
+	
+	5. average of numbers - Completed
+	
+	# Average of Numbers
+	# Average = Sum / Length
+
+	nums = [1,2,3,4,5]
+
+	total = sum(nums)
+	length = len(nums)
+
+	average = total/length
+
+	print("The average is", average)
+	
+	6. Able to perform numeric operations with variables - Completed

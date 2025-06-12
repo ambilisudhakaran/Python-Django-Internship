@@ -1,0 +1,72 @@
+3. Strings and String Methods
+
+Work with text data, learn indexing, slicing, and string methods.
+
+Concatenate name, reverse string, count characters.
+
+Manipulate string data effectively.
+
+	1. Work with text data - Completed
+	
+	first_name = input("Enter Your First Name: ")
+	last_name = input("Enter Your Last Name: ")
+
+	print(f"Hello, {first_name} {last_name}")
+
+	
+	2. learn indexing, slicing - Completed
+	
+	x = "Hello World!"
+	print(x[0:5])
+	print(x[6:11])
+	print(x[::])
+	print(x[::-1])
+	
+	3.string methods - Completed
+	
+	x = "Hello World!"
+
+	#count function
+	print(x.count("o"))
+
+	#length function
+	print(len(x))
+
+	
+	4. Concatenate name - Completed
+
+	first_name = "Ambili"
+	last_name = "Sudhakaran"
+
+	full_name = first_name + " " + last_name
+
+	print(full_name)
+	
+	5. reverse string - Completed
+	
+	x = "Hello World!"
+	print(x[::-1])
+	
+	6. count characters - Completed
+	
+	x = "Hello World!"
+
+	#count function
+	print(x.count("o"))
+	
+	7. Manipulate string data effectively - Completed
+	
+	x = " Hello, World! "
+
+	print(x)
+
+	x = x.strip()
+
+	print(x)
+
+	print(x.replace("World", "Python"))
+
+	print(x.split(","))
+
+	new_x = x.split(", ")
+	print("-".join(new_x))

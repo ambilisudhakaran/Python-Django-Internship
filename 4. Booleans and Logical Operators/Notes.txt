@@ -1,0 +1,59 @@
+4. Booleans and Logical Operators
+
+	Learn about boolean values and logical operations (and, or, not).
+
+	Evaluate expressions like x > y and combine with logical operators.
+
+	Understand boolean expressions.
+	
+	1. Learn about boolean values - Completed
+	
+	x = True
+	y = False
+	
+	print(type(x))
+	print(bool(0)) #False
+	print(bool(range(0))) #False
+	print(bool(0.1)) #True
+	print(bool(1)) #True
+	print(bool("Hello World!")) #True
+	print(bool("")) #False
+	
+	2. logical operations (and, or, not) - Completed
+	
+	x = 5
+
+	print(x > 3 and x < 10) 
+	print(x > 3 and x > 10)
+
+	print(x > 3 or x < 10)
+	print(x > 10 or x < 3)
+
+	print(not(x > 3))
+	print(not(x > 10))
+	
+	3. Evaluate expressions like x > y and combine with logical operators - Completed
+	
+	x = 3
+	y = 6
+
+	# x is less than y
+	print(x < y)
+
+	# x is greater than y 
+	print(x > y)
+
+	# x is equal to y
+	print(x == y)
+
+	# x is less than or equal to y
+	print(x <= y)
+
+	# x is greater than or equal to y
+	print(x >= y)
+
+	# x is not equal to y
+	print(x != y)
+	
+	
+	4. Understand boolean expressions - Completed

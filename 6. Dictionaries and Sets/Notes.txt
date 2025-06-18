@@ -1,0 +1,105 @@
+6. Dictionaries and Sets
+
+Work with key-value pairs and unique unordered items.
+
+Create a contact book and color set example.
+
+Use mappings and unique item collections.
+
+	1. Work with key-value pairs - Completed
+	
+	my_dict = {"name": "Anna", "age": 18, "city": "Germany"}
+
+	print(my_dict)
+	print(len(my_dict))
+	print(type(my_dict))
+
+	x = my_dict.keys()
+	print(x)
+
+	x = my_dict.values()
+	print(x)
+
+	x = my_dict.items()
+	print(x)
+
+	my_dict["hobby"] = "Painting"
+	print(my_dict)
+
+	my_dict.pop("city")
+	print(my_dict)
+	
+	2. Unique unordered items - Completed
+	
+	my_set = {"apple", "orange", "cherry"}
+	print(my_set)
+
+	# Duplicates Not Allowed
+	my_set =  {"apple", "orange", "cherry", "apple"}
+	print(my_set)
+
+	print(len(my_set))
+	print(type(my_set))
+
+	print("apple" in my_set)
+
+	my_set.add("banana")
+	print(my_set)
+
+	my_set.remove("cherry")
+	print(my_set)
+	
+	3. Create a contact book - Completed
+	
+	contacts = {
+		"name_1" : 1234, 
+		"name_2" : 5678,
+		"name_3" : 9876,
+		"name_4" : 5432
+	}
+
+	print(contacts)
+
+	print(contacts.keys())
+
+	print(contacts.values())
+
+	print(contacts["name_3"])
+	
+	
+	4. color set example - Completed
+	
+	colors = {"red", "blue", "green", "yellow"}
+	print("colors :", colors)
+
+	# adding purple
+	colors.add("purple")
+	print(colors)
+
+	# removing blue
+	colors.remove("blue")
+	print(colors)
+
+	if "green" in colors:
+		print("Green is in the set!")
+
+	print("The colors in the set are: ")
+	for color in colors:
+		print(color)
+
+	5. Use mappings and unique item collections - Completed
+	
+	colors = {
+		"Ammu": "red",
+		"Minnu": "blue",
+		"Chinnu": "pink"
+	}
+
+	print("Favorite colors:")
+	print("Ammu likes", colors["Ammu"])
+	print("Minnu likes", colors["Minnu"])
+	print("Chinnu likes", colors["Chinnu"])
+
+	unique = set(colors.values())
+
+	print("Unique colors are: ", unique)

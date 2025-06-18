@@ -1,0 +1,88 @@
+5. Lists and Tuples
+
+Explore ordered data collections. Learn how to update and access list items.
+
+Create a shopping list and perform CRUD operations.
+
+Work with list operations and indexing.
+
+	1. Explore ordered data collections - Completed
+	
+	nums = [10,20,30,40]
+	print(sum(nums))
+
+	nums = (10,20,30,40)
+	print(sum(nums))
+	
+	my_list = ["yellow", "orange", "red"]
+
+	print(type(my_list)) #  type function
+	print(my_list) 
+	print(len(my_list)) # length function
+
+	if "yellow" in my_list:
+		print("Yes, 'yellow' is in the colours list")
+
+	my_list[1] = "blue" # replace orange by blue
+	print(my_list)
+
+	my_list.append("pink") # append function
+	print(my_list)
+
+	my_list.remove("red") # remove function
+	print(my_list)
+
+	my_list.clear()
+	print(my_list)
+	
+	# tuple
+	my_tuple = ("apple", "banana", "orange") 
+
+	print(my_tuple)
+	print(len(my_tuple))
+	print(type(my_tuple))
+	print(my_tuple[1])
+
+	# convert into a list, add an item and convert back into tuple
+	x = list(my_tuple)
+	x.append("kiwi")
+	my_tuple = tuple(x)
+
+	print(my_tuple)
+
+	# multiply tuples
+	fruits = ("apple", "banana", "orange")
+	my_tuple = fruits * 2
+
+	print(my_tuple)
+
+		
+	2. Learn how to update and access list items - Completed
+	
+	my_list = ["apple", "banana", "strawberry", "orange"]
+
+	print(my_list[1])
+	print(my_list[-1])
+	print(my_list[1:3])
+	
+	3. Create a shopping list and perform CRUD operations -
+	
+	shopping_list = []
+
+	item1 = input("Enter first item: ")
+	item2 = input("Enter second item: ")
+	item3 = input("Enter third item: ")
+
+	shopping_list.append(item1)
+	shopping_list.append(item2)
+	shopping_list.append(item3)
+
+	print("Your shopping list:", shopping_list)
+		
+
+	4. Work with list operations and indexing - Completed
+	
+	fruits = ['apple', 'banana', 'cherry']
+
+	x = fruits.index("cherry")
+	

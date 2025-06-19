@@ -1,0 +1,46 @@
+7. Conditional Statements - if and else
+
+Learn to execute code blocks conditionally.
+
+Check age eligibility for voting.
+
+Implement decision-making logic.
+
+	1. Learn to execute code blocks conditionally - Completed
+	
+	temperature = 15
+
+	if temperature > 20:
+		print("It's warm outside.")
+
+	else:
+		print("It's cool outside.")
+		
+	2. Check age eligibility for voting - Completed
+	
+	age = int(input("Enter your age: "))
+
+	if age >= 18:
+		print("You are eligible to vote.")
+		
+	else:
+		print("You are not eligible to vote.")
+	
+	
+	3. Implement decision-making logic - Completed
+	
+	num = int(input("Enter a number: "))
+
+	# greater than 0
+	if num > 0:
+		print("The number is positive.")
+
+	# equal to 0
+	elif num == 0:
+		print("The number is zero.")
+
+	# less than 0
+	else:
+		print("The number is negative.")
+	
+	

@@ -1,0 +1,55 @@
+8. Using elif for multiple conditions
+
+Extend conditional checks with elif.
+
+Grade evaluation: A/B/C/D based on marks.
+
+Handle multiple outcomes in decisions.
+	
+	1. Extend conditional checks with elif - Completed
+	
+	num = int(input("Enter a number: "))
+
+	# greater than 0
+	if num > 0:
+		print("The number is positive.")
+
+	# equal to 0
+	elif num == 0:
+		print("The number is zero.")
+
+	# less than 0
+	else:
+		print("The number is negative.")
+	
+	2. Grade evaluation: A/B/C/D based on marks - Completed
+	
+	score = int(input("Enter Your Score: "))
+
+	if score >= 90:
+		print("Your Grade is: A")
+		
+	elif score >= 80:
+		print("Your Grade is: B")
+		
+	elif score >= 70:
+		print("Your Grade is: C")
+		
+	else:
+		print("Your Grade is: F")
+		
+	3. Handle multiple outcomes in decisions - Completed
+	
+	subject = input("Enter Your Subject: ")
+
+	if subject == "math":
+		print("You chose Math")
+
+	elif subject == "science":
+		print("You chose Science")
+
+	elif subject == "english":
+		print("You chose English")
+
+	else:
+		print("Good choice!")

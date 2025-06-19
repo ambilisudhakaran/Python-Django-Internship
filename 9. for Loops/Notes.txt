@@ -1,0 +1,43 @@
+9. for Loops
+
+Repeat a block for a known number of times or items.
+
+Iterate over a list of students and print names.
+
+Use loop to iterate over a sequence.
+
+	1. Repeat a block for a known number of times or items	- Completed
+	
+	fruits = ['apple', 'banana', 'cherry']
+	for fruit in fruits:
+		print(fruit)
+	
+	2. Iterate over a list of students and print names - Completed
+	
+	students = ["Lisa", "Rosie", "Pinky", "Alia"]
+
+	#Method 1
+	for name in students: 
+		print(name)
+
+	print()
+
+	#Method 2
+	for i in range(0, len(students)):
+		print(f"{i+1}. {students[i]}")
+
+	print()
+
+	#Method 3
+	for name in students: 
+		print(f"{students.index(name) + 1}. {name}")
+	
+	3. Use loop to iterate over a sequence - Completed
+	
+	sequence = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+	# for number in sequence:
+	#     print(number)
+
+	for i in range(0, len(sequence)):
+		print(f"Sum of first {sequence[i]} numbers are : {sum(sequence[0:i+1])}")

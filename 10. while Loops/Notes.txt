@@ -1,0 +1,27 @@
+10. while Loops
+
+Repeat a block until a condition becomes false.
+
+Print numbers 1-5 with while loop.
+
+Understand indefinite iteration.
+
+	1. Repeat a block until a condition becomes false - Completed
+	
+	i = 1
+	while i < 6: # i is less than 6
+		print(i)
+		i += 1
+	
+	2. Print numbers 1-5 with while loop - Completed
+	
+	i = 1
+	while i < 6: # i is less than 6
+		print(i)
+		i += 1
+	
+	3. Understand indefinite iteration - Completed
+
+	i = 1
+	while True:
+		print(i)

@@ -1,0 +1,36 @@
+11. Nested Conditions and Loops
+
+Combine logic and repetition.
+
+Create multiplication table using nested for loops.
+
+Build complex control structures.
+
+	1. Combine logic and repetition - Completed
+	
+	numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+	for num in numbers :
+		if (num % 2 ) == 0 :
+			print(num, "is an even number")
+		
+	2. Create multiplication table using nested for loops - Completed
+	
+	for i in range(1, 11):
+		for j in range(1, 11):
+			print(i * j, end=" ")
+		print()
+
+	
+	3. Build complex control structures - Completed
+		
+	score = int(input("Enter Your Score: " ))
+
+	if score >= 90:
+		print("Grade: A")
+	elif score >= 80:
+		print("Grade: B")
+	elif score >= 70:
+		print("Grade: C")
+	else:
+		print("Grade: D or F")

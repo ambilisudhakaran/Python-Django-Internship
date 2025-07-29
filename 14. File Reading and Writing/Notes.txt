@@ -1,0 +1,32 @@
+14. File Reading and Writing
+
+Read from and write to text files using open(), read(), write().
+
+Save a list of students to a file, read it and print.
+
+Work with file I/O operations.
+
+	1. Read from and write to text files using open(), read(), write() - Completed
+	
+	with open("demofile.txt", "r") as myfile:
+		content = myfile.read()
+
+	print(content)
+
+	content = "Hello World!"
+	with open("demofile_2.txt", "w") as myfile:
+		myfile.write(content)
+
+	content = "\nHello World!"
+	with open("demofile.txt", "a") as myfile:
+		myfile.write(content)
+
+	2. Save a list of students to a file, read it and print - Completed
+		
+	students = ["A", "B"]
+	with open("students.txt", "a") as file:
+		for student in students:
+			file.write(f"{students.index(student) + 1}. {student}\n")
+	
+	3. Work with file I/O operations - Completed
+	

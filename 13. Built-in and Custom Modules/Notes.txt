@@ -1,0 +1,32 @@
+13. Built-in and Custom Modules
+
+Use built-in Python modules like math, random.
+
+Use math.sqrt, random.randint in examples.
+
+Import and use modules.
+
+	1. Use built-in Python modules like math, random - Completed
+		
+	import random
+	import math
+
+	number = random.randint(1, 10)
+	print("Random Number is:", number)
+
+	double = number * 2
+	print("Double of the number:", double)
+		
+	2. Use math.sqrt, random.randint in examples - Completed
+
+	import random
+	import math
+
+	number = random.randint(1, 10)
+	print("Random Number is:", number)
+
+	square_root = math.sqrt(number)
+	print(f"Square root of {number}: {square_root}")
+	
+	3. Import and use modules - Completed
+	

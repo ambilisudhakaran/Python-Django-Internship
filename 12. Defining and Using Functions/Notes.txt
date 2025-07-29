@@ -1,0 +1,59 @@
+12. Defining and Using Functions
+
+Understand function definition, arguments, return values.
+
+Create a calculator using functions.
+
+Break code into reusable parts.
+
+	1. Understand function definition, arguments, return values - 
+	
+	Code 1 
+	def my_function():
+		print("Hello from the function")
+
+	my_function()
+	
+	Code 2
+	def get_name():
+		name = input("What is your name? ")
+		return name
+
+	user_name = get_name()
+	print("Welcome,", user_name)
+	
+	Code 3
+	def add_numbers(a,b):
+		return a + b
+
+	print(add_numbers(3,5))
+
+	2. Create a calculator using functions - Completed
+	
+	num1 = float(input("Enter first number: "))
+	num2 = float(input("Enter second number: "))
+
+	operation = input("Choose operation(+, -, *, /): ")
+
+	if operation == "+": 
+		result = num1 + num2
+	elif operation == "-":  
+		result = num1 - num2
+	elif operation == "*": 
+		result = num1 * num2
+	elif operation == "/":
+		result = num1 / num2 
+	else: 
+		result = "Invalid Operation!"
+		
+	print("The result of this operation is:", result)
+
+	
+	3. Break code into reusable parts - Completed
+		
+	def get_name():
+		name = input("What is your name? ")
+		return name
+
+	user_name = get_name()
+	print("Welcome,", user_name)

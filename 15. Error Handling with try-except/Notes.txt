@@ -1,0 +1,39 @@
+15. Error Handling with try-except
+
+Catch and handle exceptions gracefully.
+
+Catch division by zero and file not found errors.
+
+Build safer code with error handling.
+
+	1. Catch and handle exceptions gracefully - Completed
+	
+	# a = 10 / 0
+
+	try:
+		a = 10/0
+	except ZeroDivisionError:
+		print("Cannot divide by zero")
+	except: 
+		print("Something went wrong")
+	
+	2. Catch division by zero and file not found errors - Completed
+	
+	# FileNotFoundError: [Errno 2] No such file or directory: 'nofile.txt'
+
+	try:
+		with open("nofile.txt") as myfile:
+			content = myfile.read()
+	except FileNotFoundError:
+		print("File not found")
+	except:
+		print("Something went wrong")
+	
+	3. Build safer code with error handling - Completed
+	
+	try:
+		num = int(input("Enter Your Number: "))
+	except ValueError:
+		print("Invalid Number")
+	else:
+		print(f"You have entered {num}")
